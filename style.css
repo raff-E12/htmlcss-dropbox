@@ -48,6 +48,12 @@ ul{
     list-style: none; 
 }
 
+a{
+    text-align: center;
+    text-transform: capitalize;
+    color: #007bff;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
