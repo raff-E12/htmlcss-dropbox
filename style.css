@@ -365,11 +365,13 @@ nav a {
     flex-direction: column;
     width: 90%;
     text-align: center;
-    gap: 10px;
+    gap: 40px;
+    text-align: left;
 }
 
 .text-bus h1{
     width: 100%;
+    text-align: left;
 }
 
 footer {
