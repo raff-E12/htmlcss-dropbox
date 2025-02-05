@@ -80,7 +80,7 @@ nav a {
 
 .hero {
     background: #e9ecef;
-    height: 560px;
+    height: 510px;
     padding: 50px 20px;
     position: relative;
     display: flex;
@@ -112,7 +112,6 @@ nav a {
 
 .price-sc{
     width: 100%;
-    border: 2px solid red;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -249,13 +248,12 @@ nav a {
     align-items: center;
     gap: 20px;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 60px 20px;
     background: #fff;
     width: 100%;
 }
 
 .text-price{
-    border: 2px solid red;
     width: 100%;
     padding: 10px;
     display: flex ;
@@ -299,6 +297,42 @@ nav a {
 .text-box {
     max-width: 500px;
     text-align: left;
+}
+
+.section-box.collab{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.text-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.img-cont{
+    width: 40%;
+}
+
+.img-cont img{
+    width: 100%;
+}
+
+.part-btn{
+    width: 140px;
+    padding: 10px;
+    font-family: "Raleway", serif;
+    text-align: center;
+    font-size: 14px;
+    background-color: transparent;
+    color: #343a40;
+    border: 2px solid #343a40;
 }
 
 footer {
