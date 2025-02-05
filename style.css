@@ -125,6 +125,44 @@ nav a {
     gap: 20px;
     padding: 50px 20px;
     background: #fff;
+    width: 100%;
+}
+
+.text-price{
+    border: 2px solid red;
+    width: 100%;
+    padding: 10px;
+    display: flex ;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.check-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-check{
+    padding: 10px;
+    background-color: #F2F2F2;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 0px 5px #056CF2;
+}
+
+.icon-check:nth-of-type(2){
+    padding: 10px;
+    background-color: #F2F2F2;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 1px solid #343a40;
+    box-shadow: none;
 }
 
 .section-box img {
