@@ -178,7 +178,6 @@ nav a {
     flex-direction: row;
     width: 100%;
     text-align: left;
-    text-transform: capitalize;
     gap: 14px;
 }
 
