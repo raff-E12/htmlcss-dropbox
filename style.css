@@ -262,7 +262,7 @@ nav a {
 
 .text-price{
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     display: flex ;
     align-items: flex-start;
     justify-content: center;
@@ -277,7 +277,14 @@ nav a {
     gap: 10px;
 }
 
-.icon-check{
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.check .icon-check{
     padding: 10px;
     background-color: #F2F2F2;
     width: 20px;
@@ -286,7 +293,7 @@ nav a {
     box-shadow: inset 0px 0px 0px 5px #056CF2;
 }
 
-.icon-check:nth-of-type(2){
+ #notcheck{
     padding: 10px;
     background-color: #F2F2F2;
     width: 20px;
